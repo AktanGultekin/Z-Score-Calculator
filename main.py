@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import *
-import math
 
 def calculate():
     mean = float(value1.get())
