@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import *
 
-def calculate():
+def calculate(): #Defined calculate function which calculates z-score by using population mean, population standart deviation and specific value (X Value) inputs. 
     mean = float(value1.get())
     std = float(value2.get())
     x = float(value3.get())
